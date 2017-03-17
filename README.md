@@ -1,2 +1,1 @@
-Tokyo Crypto Day
-(coming soon)
+Tokyo Crypto Day (coming soon)
