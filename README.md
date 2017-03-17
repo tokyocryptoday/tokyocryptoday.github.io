@@ -1,2 +1,1 @@
-# tokyocryptoday.github.io
-Tokyo Crypto Day
+Tokyo Crypto Day (coming soon)
