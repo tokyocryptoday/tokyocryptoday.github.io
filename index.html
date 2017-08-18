@@ -53,6 +53,7 @@
 <h2 class=fade-3><i class="fa fa-ellipsis-v" aria-hidden="true"></i>&nbsp;Timeline: Past</h2>
 <p>
 	<dl>
+		<dt><a href="./past/170602.html">June 2017</a></dt>
 <!-- 	<dt><a href="./1706.html">June 2017</a></dt>
 	<dt><a href="./1706.html">June 2017</a></dt>
 	<dt><a href="./1706.html">June 2017</a></dt>
@@ -62,80 +63,7 @@
 
 <section>
 <h2 class=fade-2><i class="fa fa-ellipsis-v" aria-hidden="true"></i>&nbsp;Upcoming Talks</h2>
-<p>Join us for the first Tokyo Crypto Day on Friday, June 2.</p>
-<p>No registration is required.</p>
-<p class="emph">When</p>
-<p>June 2nd, 2017</p>
-<p class="emph">Where</p>
-<p>Musashino R&D Center<br>
-Convention Hall C (2nd floor)<br>
-3-9-11 Midori-cho,Musashino-shi,Tokyo</p>
-<p class="emph">Program</p>
-<table>
-  <tbody>
-      <tr>
-      <td>12:55 - 13:00</td>
-      <td>Opening remarks</td>
-    </tr>
-    <tr>
-      <td>13:00 - 14:00</td>
-      <td><a href="#FKitagawa">Fuyuki Kitagawa</a><br> From Single-Key to Collusion-Resistant Secret-Key Functional Encryption<br> by Leveraging Succinctness</td>
-    </tr>
-    <tr>
-      <td>14:00 - 14:30</td>
-	  <td>Break</td>
-    </tr>
-    <tr>
-      <td>14:30 - 15:30</td>
-      <td><a href="#ATakayasu">Atsushi Takayasu</a><br>Small CRT-Exponent RSA Revisited</td>
-    </tr>
-    <tr>
-      <td>15:30 - 16:00</td>
-      <td>Break</td>
-    </tr>
-    <tr>
-      <td>16:00 - 17:00</td>
-      <td><a href="#KEmura">Keita Emura</a><br>Privacy-Preserving Aggregation of Time-Series Data<br> with Public Verifiability from Simple Assumptions</td>
-    </tr>
-  </tbody>
-</table>
-<!-- 	<ul>
-		<li>13:00 - 14:00</li>
-		<li>14:00 - 14:30 | Break</li>
-		<li>14:30 - 15:30</li>
-		<li>15:30 - 16:00 | Break</li>
-		<li>16:00 - 17:00</li>
-	</ul> -->
-<p class="emph">Abstracts</p>
-
-<p><strong><a name="FKitagawa">From Single-Key to Collusion-Resistant Secret-Key Functional Encryption by Leveraging Succinctness</a></strong><br/>
-<em>Fuyuki Kitagawa</em> (Tokyo Tech)</p>
-<p>We show how to construct a secret-key functional encryption (SKFE) scheme that supports unbounded polynomially many functional decryption keys solely from an SKFE scheme that supports only one functional decryption key. The underlying single-key SKFE scheme needs to be weakly succinct, that is, the size of its encryption circuit is sub-linear in the size of functions.
-
-In our construction, if the underlying single-key SKFE scheme is sub-exponentially secure,
-then so does the resulting scheme.
-By combining this result and the result by Bitansky, Nishimaki, Passel\`egue, and Wichs (TCC 2016 B), we can obtain an indistinguishability obfuscation from a sub-exponentially secure weakly succinct SKFE scheme that supports only a single functional decryption key if we additionally assume a sub-exponentially secure plain public key encryption scheme.</p>
-
-<p>Joint Work with Ryo Nishimaki and Keisuke Tanaka</p>
-
-<p><strong><a name="ATakayasu">Small CRT-Exponent RSA Revisited</a></strong>
- <!-- &raquo; <a href="https://eprint.iacr.org/2017/092">eprint</a> -->
- <br/>
-<em>Atsushi Takayasu</em> (The University of Tokyo)</p>
-<p>Since May (Crypto'02) revealed the vulnerability of the small CRT-exponent RSA using Coppersmith's lattice-based method, several papers have studied the problem and two major improvements have been made. Bleichenbacher and May (PKC'06) proposed an attack for small $d_q$ when the prime factor $p$ is significantly smaller than the other prime factor $q$; the attack works for $p< N^{0.468}$. Jochemsz and May (Crypto'07) proposed an attack for small $d_p$ and $d_q$ where the prime factors $p$ and $q$ are balanced; the attack works for $d_p , d_q < N^{0.073}$. Even after a decade has passed since their proposals, the above two attacks are still considered to be the state-of-the-art, and no improvements have been made thus far. A novel technique seems to be required for further improvements since the attacks have been studied with all the applicable techniques for Coppersmith's methods proposed by Durfee-Nguyen (Asiacrypt'00), Jochemsz-May (Asiacrypt'06), and Herrmann-May (Asiacrypt'09, PKC'10). In this paper, we propose two improved attacks on the small CRT-exponent RSA: a small $d_q$ attack for $p < N^{0.5}$ (an improvement of Bleichenbacher-May's) and a small $d_p$ and $d_q$ attack for $d_p , d_q < N^{0.091}$ (an improvement of Jochemsz-May's). We use Coppersmith's lattice-based method to solve modular equations and obtain the improvements from a novel lattice construction by exploiting useful algebraic structures of the CRT-RSA key generation. We explicitly show proofs of our attacks and verify the validities by computer experiments. In addition to the two main attacks, we propose small $d_q$ attacks on several variants of RSA.</p>
-<p>Joint Work with Yao Lu and Liqiang Peng</p>
-
-<p><strong><a name="KEmura">Privacy-Preserving Aggregation of Time-Series Data with Public Verifiability from Simple Assumptions</a></strong><br/>
-<em>Keita Emura</em> (NICT)</p>
-<p>Aggregator oblivious encryption was proposed by Shi et al. (NDSS 2011), where an aggregator can compute an aggregated sum of data and is unable to learn anything else (aggregator obliviousness). Since the aggregator does not learn individual data that may reveal users' habits and behaviors, several applications, such as privacy-preserving smart metering, have been considered. In this talk, we introduce our aggregator oblivious encryption schemes with public verifiability where the aggregator is required to generate a proof of an aggregated sum and anyone can verify whether the aggregated sum has been correctly computed by the aggregator. Though Leontiadis et al. (CANS 2015) considered the verifiability, their scheme requires an interactive complexity assumption to provide the unforgeability of the proof. Our schemes are proven to be unforgeable under a static and simple assumption (a variant of the Computational Diffie-Hellman assumption). Moreover, our schemes inherit the tightness of the reduction of the Benhamouda et al. scheme (ACM TISSEC 2016) for proving aggregator obliviousness. This tight reduction allows us to employ elliptic curves of a smaller order and leads to efficient implementation.</p>
-
-
-
-<p class="emph">Organizer(s):</p>
-<ul>
-	<li>
-	Ryo Nishimaki (NTT Secure Platform Laboratories)</li>
-</ul>
+<p>The second Tokyo Crypto Day will be held in the middle of October. More information will be announced at the beginning of September.</p>
 
 </section>
 
