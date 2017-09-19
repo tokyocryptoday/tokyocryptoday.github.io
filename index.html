@@ -7,7 +7,7 @@
 	<meta name="description" content="Tokyo Crypto Day">
 	<meta name="keywords" content="Tokyo Crypto Day">
 	<meta name="viewport" content="width=device-width, minimum-scale=0.1">
-	<link rel="stylesheet" type="text/css" href="tokyocryptoday_blue.css">
+	<link rel="stylesheet" type="text/css" href="tokyocryptoday_red.css">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Open+Sans:300,400|Abel|Dosis:300,400|Roboto:300,400" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" href="./css/font-awesome.min.css">
@@ -32,9 +32,17 @@
 <p><small> Welcome to Tokyo Crypto-Park</small>
 </p>
 <p>Home / <a href="about.html">About</a></p>
-<p>
-<img src="./images/ocean.jpg" alt="ocean" title="ocean" width="1140" height="300">
-</p>
+	<div class="div_box1">
+	<img src="./images/modified_tokyo-Koishikawa_Korakuen_Garden.jpg" alt="Koishikawa Korakuen Garden by FIND47.JP" style="width: 768px; height: 300px"/>
+</div>
+<div class="div_box2">
+<font size="2">- About the left image<br>
+	Created by modifying Tokyo Koishikawa Korakuen Garden:<br>
+&copy; Tokyo Metropolitan Park Association. <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. See <a href="https://find47.jp/en/">FIND/47</a></font>.
+</div>
+
+<!-- <img src="./images/ocean.jpg" alt="ocean" title="ocean" width="1140" height="300"> -->
+
 </header>
 <sidebar>
 <h2 class=fade-3><i class="fa fa-ellipsis-v" aria-hidden="true"></i>&nbsp;Related Events</h2>
@@ -62,8 +70,94 @@
 </sidebar>
 
 <section>
-<h2 class=fade-2><i class="fa fa-ellipsis-v" aria-hidden="true"></i>&nbsp;Upcoming Talks</h2>
-<p>The second Tokyo Crypto Day will be held in the middle of October. More information will be announced at the beginning of September.</p>
+<h2 class=fade-2><i class="fa fa-ellipsis-v" aria-hidden="true"></i>&nbsp;Upcoming event</h2>
+<p class="emph">When</p>
+<p>October 20th (Fri), 2017</p>
+<p class="emph">Where</p>
+<p>Musashino R&D Center<br>
+Conference room 1 in the main building<br>
+3-9-11 Midori-cho,Musashino-shi,Tokyo</p>
+<p class="emph">Program</p>
+<table>
+  <tbody>
+      <tr>
+      <td>10:30 - 10:35</td>
+      <td>Opening remarks</td>
+    </tr>
+        <tr>
+      <td>10:35 - 11:35</td>
+      <td><a href="#SKiyoshima">Susumu Kiyoshima</a><br> A Unified Approach to Constructing Black-box UC Protocols in Trusted Setup Models</td>
+    </tr>
+        <tr>
+      <td>11:35 - 13:00</td>
+      <td>Lunch break</td>
+    </tr>
+    <tr>
+      <td>13:00 - 14:00</td>
+      <td><a href="#SYamada">Shota Yamada</a><br> Asymptotically Compact Adaptively Secure Lattice IBEs and Verifiable Random Functions via Generalized Partitioning Techniques</td>
+    </tr>
+    <tr>
+      <td>14:00 - 14:20</td>
+	  <td>Break</td>
+    </tr>
+    <tr>
+      <td>14:20 - 15:20</td>
+      <td><a href="#MTibouchi">Mehdi Tibouchi</a><br> TBA</td>
+    </tr>
+    <tr>
+      <td>15:20 - 15:40</td>
+      <td>Break</td>
+    </tr>
+    <tr>
+      <td>15:40 - 16:40</td>
+      <td><a href="#TBA">TBA</a><br>TBA</td>
+    </tr>
+  </tbody>
+</table>
+<!-- 	<ul>
+		<li>13:00 - 14:00</li>
+		<li>14:00 - 14:30 | Break</li>
+		<li>14:30 - 15:30</li>
+		<li>15:30 - 16:00 | Break</li>
+		<li>16:00 - 17:00</li>
+	</ul> -->
+<p class="emph">Abstracts</p>
+
+<p><strong><a name="SKiyoshima">A Unified Approach to Constructing Black-box UC Protocols in Trusted Setup Models</a></strong><br/>
+<em>Susumu Kiyoshima</em> &nbsp;(NTT Secure Platform Laboratories)</p>
+<p>We present a unified framework for obtaining black-box constructions of Universal Composable (UC) protocol in trusted setup models. Our result is analogous to the unified framework of Lin, Pass, and Venkitasubramaniam [STOC'09, Asiacrypt'12] that, however, only yields non-black-box constructions of UC protocols. Our unified framework shows that to obtain black-box constructions of UC protocols, it suffices to implement a special purpose commitment scheme that is, in particular, concurrently extractable using a given trusted setup. Using our framework, we improve black-box constructions in the common reference string and tamper-proof hardware token models by weakening the underlying computational and setup assumptions.
+</p>
+<p>Joint work with Huijia Lin (UCSB) and Muthuramakrishnan Venkitasubramaniam (University of Rochester).</p>
+
+<p><strong><a name="SYamada">Asymptotically Compact Adaptively Secure Lattice IBEs and Verifiable Random Functions via Generalized Partitioning Techniques</a></strong>
+ <!-- &raquo; <a href="https://eprint.iacr.org/2017/092">eprint</a> -->
+ <br/>
+<em>Shota Yamada</em> &nbsp;(AIST)</p>
+<p>In this talk, we focus on the constructions of adaptively secure identity-based encryption (IBE) from lattices and verifiable random function (VRF) with large input spaces. Existing constructions of these primitives suffer from low efficiency, whereas their counterparts with weaker guarantees (IBEs with selective security and VRFs with small input spaces) are reasonably efficient. We try to fill these gaps by developing new partitioning techniques that can be performed with compact parameters and proposing new schemes based on the idea.
+
+<ul>
+<li> We propose new lattice IBEs with poly-logarithmic master public key sizes, where we count the number of the basic matrices to measure the size. Our constructions are proven secure under the LWE assumption with polynomial approximation factors. They achieve the best asymptotic space efficiency among existing schemes that depend on the same assumption and achieve the same level of security.
+
+<li> We also propose several new VRFs on bilinear groups. In our first scheme, the size of the proofs is poly-logarithmic in the security parameter, which is the smallest among all the existing schemes with similar properties. On the other hand, the verification keys are long. In our second scheme, the size of the verification keys is poly-logarithmic, which is the smallest among all the existing schemes. The size of the proofs is sub-linear, which is larger than our first scheme, but still smaller than all the previous schemes.
+</ul></p>
+<p></p>
+
+<p><strong><a name="MTibouchi">Title: TBA</a></strong><br/>
+<em>Mehdi Tibouchi</em> &nbsp;(NTT Secure Platform Laboratores)</p>
+<p>Abstract: TBA</p>
+
+
+<p><strong><a name="TBA">Title: TBA</a></strong><br/>
+<em>Speaker: TBA</em>&nbsp; </p>
+<p>Abstract: TBA</p>
+
+
+
+<p class="emph">Organizer(s):</p>
+<ul>
+	<li>
+	Ryo Nishimaki (NTT Secure Platform Laboratories)</li>
+</ul>
 
 </section>
 
