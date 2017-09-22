@@ -102,7 +102,7 @@ Conference room 1 in the main building<br>
     </tr>
     <tr>
       <td>14:20 - 15:20</td>
-      <td><a href="#MTibouchi">Mehdi Tibouchi</a><br> TBA</td>
+      <td><a href="#MTibouchi">Mehdi Tibouchi</a><br> Side-Channel Attacks on BLISS Lattice-Based Signatures</td>
     </tr>
     <tr>
       <td>15:20 - 15:40</td>
@@ -142,9 +142,34 @@ Conference room 1 in the main building<br>
 </ul></p>
 <p></p>
 
-<p><strong><a name="MTibouchi">Title: TBA</a></strong><br/>
+<p><strong><a name="MTibouchi">Side-Channel Attacks on BLISS Lattice-Based Signatures</a></strong><br/>
 <em>Mehdi Tibouchi</em> &nbsp;(NTT Secure Platform Laboratores)</p>
-<p>Abstract: TBA</p>
+<p>In this talk, we discuss recent results on the security of the BLISS
+lattice-based signature scheme, one of the most promising candidates for
+postquantum-secure signatures, against side-channel attacks. Several
+works have been devoted to its efficient implementation on various
+platforms, from desktop CPUs to microcontrollers and FPGAs, and more
+recent papers have also considered its security against certain types of
+physical attacks, notably fault injection and cache attacks. We turn to
+more traditional side-channel analysis, and describe several attacks that
+can yield a full key recovery.
+<br>
+We first identify a serious source of leakage in the rejection sampling
+algorithm used during signature generation. Existing implementations of
+that rejection sampling step, which is essential for security, actually
+leak the ``relative norm'' of the secret key. We show how an extension of
+an algorithm due to Howgrave-Graham and Szydlo can be used to recover the
+key from that relative norm, at least when the absolute norm is easy to
+factor. We describe how this leakage can be exploited in practice both on
+an embedded device using e.g. power analysis, and on a desktop computer
+using a technique called branch tracing.
+<br>
+We also show that other parts of the BLISS signing algorithm can leak
+secrets. This includes the Gaussian sampling step used to obtain the
+randomness used in signatures, as well as the sparse polynomial
+multiplications carried out in BLISS. Overall, although we suggest
+possible countermeasures, protecting BLISS against side-channels appears
+to be a hard problem.</p>
 
 
 <p><strong><a name="TBA">Title: TBA</a></strong><br/>
