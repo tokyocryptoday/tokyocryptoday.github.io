@@ -110,7 +110,7 @@ Conference room 1 in the main building<br>
     </tr>
     <tr>
       <td>15:40 - 16:40</td>
-      <td><a href="#TBA">TBA</a><br>TBA</td>
+      <td><a href="#RKikuchi">Ryo Kikuchi</a><br>Secure AES computation comparable to local AES computation</td>
     </tr>
   </tbody>
 </table>
@@ -153,7 +153,8 @@ recent papers have also considered its security against certain types of
 physical attacks, notably fault injection and cache attacks. We turn to
 more traditional side-channel analysis, and describe several attacks that
 can yield a full key recovery.
-<br>
+</p>
+<p>
 We first identify a serious source of leakage in the rejection sampling
 algorithm used during signature generation. Existing implementations of
 that rejection sampling step, which is essential for security, actually
@@ -163,7 +164,8 @@ key from that relative norm, at least when the absolute norm is easy to
 factor. We describe how this leakage can be exploited in practice both on
 an embedded device using e.g. power analysis, and on a desktop computer
 using a technique called branch tracing.
-<br>
+</p>
+<p>
 We also show that other parts of the BLISS signing algorithm can leak
 secrets. This includes the Gaussian sampling step used to obtain the
 randomness used in signatures, as well as the sparse polynomial
@@ -172,9 +174,18 @@ possible countermeasures, protecting BLISS against side-channels appears
 to be a hard problem.</p>
 <p>Joint work with Thomas Espitau, Pierre-Alain Fouque, and Benoit Gerard</p>
 
-<p><strong><a name="TBA">Title: TBA</a></strong><br/>
-<em>Speaker: TBA</em>&nbsp; </p>
-<p>Abstract: TBA</p>
+<p><strong><a name="RKikuchi">Secure AES computation comparable to local AES computation</a></strong><br/>
+<em>Ryo Kikuchi</em>&nbsp; </p>
+<p>Secure computation is a technique that enables parties with inputs to evaluate a function on the inputs while keeping them secret. Despite the advantage of secure computation, it has not been common due to its inefficiency; the performance is far from that of local computations. Therefore, the main challenge is to obtain better performance in secure computation. In general, obtaining the best performance for a function requires an optimization of an algorithm through deep understanding of the function itself and an architecture in which the computation is conducted. The same thing holds in secure computation; optimizations of a protocol and an algorithm through the understanding of both the function and the architecture can lead to great improvements.
+</p>
+<p>
+We demonstrates the effect of this general approach and shows how fast secure computation can be by actually improving the performance through new protocols, algorithm optimization, and implementation techniques with regards to secure Advanced Encryption Standard (AES) computation. Secure AES computation is a quite appropriate example to be optimized since it has been widely investigated as a de facto standard performance benchmark on secure computation and it serves as a challenging test case. It is also important by itself as distributing shares of keys to prevent corrupted server from accessing the secret key. Furthermore, parts of the improvements are general and not specific to AES, and can be applied to secure computation of arbitrary functions.
+</p>
+<p>
+On three 8-core PCs with a 10-Gigabit ring network in the model of passive security with an honest majority, our implementation including the all improvements achieved a throughput of 519 Mbps, which involved 4 million AES blocks per second in counter mode. This throughput is about 350 Mbps more than and three times faster than a throughput of 169 Mbps, which was achieved by Araki \etal in the same model at ACM CCS 2016. In addition, this throughput is comparable to those of local AES computation. The throughput of 519 Mbps is more than twice the throughput as a benchmark implementation of AES at the time of the AES competition. This indicates that, at least in the area of AES, highly optimized secure computation can be sufficiently practical and perform better than certain local computations used in the real world. Furthermore, the latency of our implementation is 1.7 ms, which is nearly optimal according to the number of rounds and network latency.</p>
+
+
+<p>Joint work with Dai Ikarashi, Koki Hamada, and Koji Chida</p>
 
 
 
