@@ -114,7 +114,7 @@ Lecture room #63 (room #269), Faculty of Engineering Bldg. #6<br>
     </tr>
     <tr>
       <td>15:30 - 16:30</td>
-      <td><a href="#TYamakawa">Takashi Yamakawa</a><br>Constrained PRF for $\mathsf{NC}^1$ in Traditional Groups</td>
+      <td><a href="#TYamakawa">Takashi Yamakawa</a><br>Constrained PRF for $\textbf{NC}^1$ in Traditional Groups</td>
     </tr>
   </tbody>
 </table>
@@ -166,10 +166,17 @@ the functionality provided by compute-and-compare programs. In contrast, our tec
 bit-string functionalities much more efficiently since we do not require branching program evaluations.</p>
 </p>
 
-<p><strong><a name="TYamakawa">Constrained PRF for $\mathsf{NC}^1$ in Traditional Groups</a></strong><br/>
-<em>Takashi Yamakawa</em>&nbsp; (NTT Secure Platform Laboratores)</p>
-<p>TBA</p>
+<p><strong><a name="TYamakawa">Constrained PRF for $\textbf{NC}^1$ in Traditional Groups</a></strong><br/>
+<em>Takashi Yamakawa</em>&nbsp; (NTT Secure Platform Laboratories)</p>
+<p>We propose new constrained pseudorandom functions (CPRFs) in traditional groups. Traditional groups mean cyclic and multiplicative groups of prime order that were widely used in the 1980s and 1990s (sometimes called ``pairing free'' groups). Our main constructions are as follows.
 
+<ul>
+<li>We propose a selectively single-key secure CPRF for circuits with depth $O(\log n)$ (that is, $\textbf{NC}^1$ circuits) in traditional groups where $n$ is the input size. It is secure under the $L$-decisional Diffie-Hellman inversion ($L$-DDHI) assumption in the group of quadratic residues $\mathbb{QR}_q$ and the decisional Diffie-Hellman (DDH) assumption in a traditional group of order $q$ in the standard model.
+<li> We propose a selectively single-key private bit-fixing CPRF in traditional groups. It is secure under the DDH assumption in any prime-order cyclic group in the standard model.
+<li> We propose adaptively single-key secure CPRF for $\textbf{NC}^1$ and private bit-fixing CPRF in the random oracle model.
+</ul>
+<p>To achieve the security in the standard model, we develop a new technique using correlated-input secure hash functions.</p>
+<p>Joint work with Nuttapong Attrapadung, Takahiro Matsuda, Ryo Nishimaki, and Shota Yamada</p>
 
 
 
