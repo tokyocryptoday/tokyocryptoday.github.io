@@ -109,8 +109,7 @@ Lecture room #63 (room #269), Faculty of Engineering Bldg. #6<br>
     </tr>
     <tr>
       <td>14:15 - 15:15</td>
-      <td><a href="#ADavidson">Alex Davidson</a><br> Obfuscation of Bit-string Functionalities from Ring-LWE
-</td>
+      <td><a href="#ADavidson">Alex Davidson</a><br> Notes On GGH13 Without The Presence Of Ideals</td>
     </tr>
     <tr>
       <td>15:15 - 15:30</td>
@@ -142,33 +141,12 @@ Lecture room #63 (room #269), Faculty of Engineering Bldg. #6<br>
 <p>We develop a general approach to adding a threshold functionality to a large class of (non-threshold) cryptographic schemes. A threshold functionality enables a secret key to be split into a number of shares, so that only a threshold of parties can use the key, without reconstructing the key. We begin by constructing a threshold fully-homomorphic encryption scheme (TFHE) from the learning with errors (LWE) problem. We next introduce a new concept, called a universal thresholdizer, from which many threshold systems are possible. We show how to construct a universal thresholdizer from our TFHE. A universal thresholdizer can be used to add threshold functionality to many systems, such as CCA-secure public key encryption (PKE), signature schemes, pseudorandom functions, and others primitives. In particular, by applying this paradigm to a (non-threshold) lattice signature system, we obtain the first single-round threshold signature scheme from LWE.</p>
 <p>Joint work with Dan Boneh, Rosario Gennaro, Steven Goldfeder, Aayush Jain, Peter M. R. Rasmussen and Amit Sahai</p>
 
-<p><strong><a name="ADavidson"> Obfuscation of Bit-string Functionalities from Ring-LWE
-</a></strong><br/>
+<p><strong><a name="ADavidson"> Notes On GGH13 Without The Presence Of Ideals</a></strong><br/>
 <em>Alex Davidson</em> &nbsp;(Royal Holloway)</p>
-<p>In recent years, there has been a renewed push to develop obfuscators that can demonstrate
-virtual black-box (VBB) security for very specific function classes. This renaissance has seen
-the development of obfuscators with security derived from standard assumptions (or variants thereof).
-For instance, Brakerski et al. [ITCS 2016] gave a construction of a bit-string conjunction obfuscator
-with security derived from a non-standard, multiplicative variant of the ring learning with errors
-(RLWE) assumption. Subsequent works (Wichs et al., Goyal et al. [FOCS 2017]) have constructed
-obfuscators for ‘compute-and-compare’ functionalities allowing a program to be computed and the
-result to be compared with a target value of high entropy, with security from the standard LWE
-assumption.</p>
 <p>
-In this work, we devise a new technique that allows us to design an obfuscator framework for various
-bit-string functionalities from only the standard RLWE assumption. Firstly we show that a linear
-variant of the assumption used by Brakerski et al. can be realised from an instantiation of the
-standard RLWE assumption. Secondly, we show that an obfuscator for conjunctions satisfying VBB
-security can be achieved from our linear assumption and thus from RLWE. Finally, we show that
-the assumption can be used to construct obfuscators for other bit-string functionalities such as point
-and multi-point functions. As a means of demonstrating a multi-point function obfuscator, we show
-how to construct a obfuscator that allows queries to an underlying Bloom filter data structure from
-RLWE.</p>
-<p>Our conjunction obfuscator comes with stronger security guarantees in comparison to the previous
-multiplicative design due to the explicit security reduction from RLWE. We provide a strict subset of
-the functionality provided by compute-and-compare programs. In contrast, our technique evaluates
-bit-string functionalities much more efficiently since we do not require branching program evaluations.</p>
+We investigate the merits of altering the Garg, Gentry and Halevi (GGH13) graded encoding scheme to remove the presence of the ideal ⟨g⟩. In particular, we show that we can alter the form of encodings so that effectively a new gi is used for each source group Gi, while retaining correctness. This would appear to prevent all known attacks on indistinguishability obfuscation (IO) candidates instantiated using GGH13. However, when analysing security in simplified branching program and obfuscation security models, we present branching program (and thus IO) distinguishing attacks that do not use knowledge of ⟨g⟩. This result opens a counterpoint with the work of Halevi (EPRINT 2015) which stated that the core computational hardness problem underpinning GGH13 is computing a basis of this ideal. Our attempts seem to suggest that there is a structural vulnerability in the way that GGH13 encodings are constructed that lies deeper than the presence of ⟨g⟩.
 </p>
+<p>Joint work with Martin Albrecht, Enrique Larraia, Alice Pellet-Mary</p>
 
 <p><strong><a name="TYamakawa">Constrained PRF for $\textbf{NC}^1$ in Traditional Groups</a></strong><br/>
 <em>Takashi Yamakawa</em>&nbsp; (NTT Secure Platform Laboratories)</p>
