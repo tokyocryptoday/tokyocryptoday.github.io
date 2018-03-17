@@ -17,6 +17,16 @@ h2{
 h3{
 	font-size: 80%;
 }
+
+.div_box1{
+	width:800px;
+	float:left;
+}
+.div_box2{
+	width:400px;
+	float:left;
+}
+
 body {
 	background-color: #FEF8E9;/*#171E41;*/
 	font-size: 140%;
