@@ -7,7 +7,7 @@
 	<meta name="description" content="Tokyo Crypto Day">
 	<meta name="keywords" content="Tokyo Crypto Day">
 	<meta name="viewport" content="width=device-width, minimum-scale=0.1">
-	<link rel="stylesheet" type="text/css" href="tokyocryptoday.css">
+	<link rel="stylesheet" type="text/css" href="tokyocryptoday_green.css">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Open+Sans:300,400|Abel|Dosis:300,400|Roboto:300,400" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" href="./css/font-awesome.min.css">
@@ -33,12 +33,12 @@
 </p>
 <p>Home / <a href="about.html">About</a></p>
 	<div class="div_box1">
-	<img src="./images/modified_Goryokaku.jpg" alt="Goryokaku Fort in Cherry blossom Hokkaido by FIND47.JP" style="width: 768px; height: 300px"/>
+	<img src="./images/modified_Kenninji.jpg" alt="by Yudai_photographyFIND47.JP" style="width: 768px; height: 300px"/>
 </div>
 <div class="div_box2">
 <font size="2">- About the left image<br>
-	Created by modifying Goryokaku Fort in Cherry blossom Hokkaido:<br>
-&copy; Goryokaku_Tower. <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. See <a href="https://find47.jp/en/">FIND/47</a></font>.
+	Created by modifying Kenninji-temple Chouontei Garden Kyoto:<br>
+&copy; Yudai_photography. <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. See <a href="https://find47.jp/en/">FIND/47</a></font>.
 </div>
 
 <!-- <img src="./images/ocean.jpg" alt="ocean" title="ocean" width="1140" height="300"> -->
@@ -81,7 +81,7 @@
 <p>Musashino R&D Center<br>
 Conference room 1 in the main building<br>
 3-9-11 Midori-cho,Musashino-shi,Tokyo</p>
-<p class="emph">Program (tentative: more information available soon)</p>
+<p class="emph">Program (tentative: the order may be changed)</p>
 <table>
   <tbody>
     <tr>
@@ -103,10 +103,91 @@ Conference room 1 in the main building<br>
     </tr>
     <tr>
       <td>15:30 - 16:30</td>
-      <td><a href="#MOhkubo">Miyako Ohkubo</a><br>TBA</td>
+      <td><a href="#MOhkubo">Miyako Ohkubo</a><br>Improved (Almost) Tightly-Secure Structure-Preserving Signatures</td>
     </tr>
   </tbody>
 </table>
+
+<p class="emph">Abstracts</p>
+
+<p><strong><a name="KMinematsu">Forgery and Impersonation Attacks against of LINE's End-to-End Encryption Schemes
+</a></strong><br/>
+<em>Kazuhiko Minematsu</em> (NEC)</p>
+<p>LINE is a mobile messaging application quite popular in Japan and several other east Asian countries. 
+In this talk, we study the security of LINE's End-to-End Encryption (E2EE) schemes, 
+called Letter Sealing, by investigating the specifications described in the whitepaper 
+published by the developer (the LINE corporation). 
+While the purpose of E2EE is a protection of users from the potentially malicious server operated 
+by the service provider (a.k.a E2E adversary), we report multiple practical attacks against Letter Sealing 
+allowing forgery and impersonation by a malicious user colluding with E2E adversary, or in some cases 
+even without involving E2E adversary. 
+Our analysis shows that LINE's E2EE schemes do not satisfy the central security requirement for E2EE. 
+We have informed our attacks to the developer, and they acknowledged those involving the E2E adversary. 
+</p>
+
+<p>Joint Work with Takanori Isobe</p>
+
+<p><strong><a name="KSasaki">Count-then-Permute: a Precision-free Alternative to Inversion Sampling</a></strong>
+ <!-- &raquo; <a href="https://eprint.iacr.org/2017/092">eprint</a> -->
+ <br/>
+<em>Kentrou Sasaki</em> (NEC)</p>
+<p>The sampling from a discrete probability distribution is an old and basic
+problem in computer science and has various applications.
+The inversion sampling is one of the most popular methods for this purpose.
+One drawback of inversion sampling (and the most of others) is that
+it's memory size and sampling speed depend on the required precision $k$. 
+For cryptographic usage this can be problematic, because 
+$k$ can be quite high, e.g, 128 or 256 bits, or even more. 
+For example, such situation occurs in the discrete Gaussian sampling in 
+the lattice cryptography. 
+In this talk, we present a novel sampling method which we call
+counter-then-permute (CP) sampler. It is a generic sampler for arbitrary
+discrete distribution and has a unique feature that it's time and memory
+for on-line sampling is completely precision-free but depends on the 
+maximum number of samples we need, written as $N$ . 
+Therefore, it can be faster and require smaller memory than inversion 
+sampling depending on the parameters, $k$ and $N$. 
+Our proposal consists of a novel use of a block cipher as an efficient, 
+computationally-secure instantiation of uniform sampling with replacement, 
+and the use of recent works on exact sublinear sampling for 
+large binomial distributions.
+We also present implementations and experimental evaluations of our CP
+sampler, taking our target as discrete Gaussian distributions employed by 
+ the known lattice cryptographic schemes. </p>
+<p>Joint Work with Kazuhiko Minematsu and Yuki Tanaka</p>
+
+<p><strong><a name="MOhkubo">Improved (Almost) Tightly-Secure Structure-Preserving Signatures</a></strong><br/>
+<em>Miyako Ohkubo</em> (NICT)</p>
+<p>
+Structure Preserving Signatures (SPS) allow the signatures
+and the messages signed to be further encrypted while retaining the
+ability to be proven valid under zero-knowledge. In particular, SPS are
+tailored to have structure suitable for Groth-Sahai NIZK proofs. More
+precisely, the messages, signatures, and verification keys are required to
+be elements of groups that support efficient bilinear-pairings (bilinear
+groups), and the signature verification consists of just evaluating one or
+more bilinear-pairing product equations. Since Groth-Sahai NIZK proofs
+can (with zero-knowledge) prove the validity of such pairing product
+equations, it leads to interesting applications such as blind signatures,
+group signatures, traceable signatures, group encryption, and delegatable
+credential systems.
+In this paper, we further improve on the SPS scheme of Abe, Hofheinz,
+Nishimaki, Ohkubo and Pan (CRYPTO 2017) while maintaining only an
+O(λ)-factor security reduction loss to the SXDH assumption. In particular,
+we compress the size of the signatures by almost 40%, and reduce
+the number of pairing-product equations in the verifier from fifteen to
+seven. Recall that structure preserving signatures are used in applications
+by encrypting the messages and/or the signatures, and hence these
+optimizations are further amplified as proving pairing-product equations
+in Groth-Sahai NIZK system is not frugal. While our scheme uses an
+important novel technique introduced by Hofheinz (EuroCrypt 2017),
+i.e. structure-preserving adaptive partitioning, our approach to building
+the signature scheme is different and this leads to the optimizations mentioned.
+Thus we make progress towards an open problem stated by Abe
+et al. (CRYPTO 2017) to design more compact SPS-es with smaller
+number of group elements.
+</p>
+<p>Joint work with Charanjit S. Jutla and Arnab Roy</p>
 
 
 </section>
