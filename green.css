@@ -12,12 +12,12 @@ h2{
 /*	box-shadow: 0 1px 0 #171E41;/*#2E3454;
 	text-shadow: -1px 1px 0 rgba(0,0,0,1);
 */
-	clear: both;
 }
 
 h3{
 	font-size: 80%;
 }
+
 
 .div_box1{
 	width:800px;
@@ -29,7 +29,7 @@ h3{
 }
 
 body {
-	background-color: #FFE9D0;/*#171E41;*/
+	background-color: #FEF8E9;/*#171E41;*/
 	font-size: 140%;
 	color: #00082F; /* sakura FBDADE*/
 	font-family: 'Dosis', sans-serif;
@@ -90,26 +90,26 @@ table {
 th, td {
   text-align:left;
   padding:5px 10px;
-  border-bottom:1px solid #EF3E36;
+  border-bottom:1px solid #6BBA6E;
 }
 
 a {
-	color: #EC7505; /*FC9F5B, #B96AC9; /*#5941A9; /* #BDC0F8;  /* #AFB3F7; #9893DA #BBBDF6*/ 
+	color: #6BBA6E; /*#B96AC9; /*#5941A9; /* #BDC0F8;  /* #AFB3F7; #9893DA #BBBDF6*/ 
 	text-decoration:none;
 }
 
 a:hover {
 	font-weight: bold;
-	color: #BB4430; /*#79B791 /*#97DFFC;*/
+	color: #0A2463; /*#79B791 /*#97DFFC;*/
 }
 
 .fade-2 {
   border-width: 0 0 1px;
   border-image: linear-gradient(
     90deg,
-    hsla(8, 82%, 35%, 0.7),
-    hsla(8, 82%, 35%, 0.2) 30%,
-    hsla(8, 82%, 35%, 0) 90%) 0 0 100%;
+    hsla(122, 87%, 31%, 0.7),
+    hsla(122, 87%, 31%, 0.2) 30%,
+    hsla(122, 87%, 31%, 0) 90%) 0 0 100%;
   border-style: solid;
 }
 
@@ -117,15 +117,15 @@ a:hover {
   border-width: 0 0 1px;
   border-image: linear-gradient(
     90deg,
-    hsla(34, 87%, 31%, 0.7),
-    hsla(34, 87%, 31%, 0.2) 30%,
-    hsla(34, 87%, 31%, 0) 90%) 0 0 100%;
+    hsla(122, 87%, 31%, 0.7),
+    hsla(122, 87%, 31%, 0.2) 30%,
+    hsla(122, 87%, 31%, 0) 90%) 0 0 100%;
   border-style: solid;
 }
 
 
 .accent {
-	color: #EF3E36;
+	color: #388659;
 }
 
 /*.sidebar {
@@ -141,7 +141,7 @@ a:hover {
 	  }
 
 .emph {
-	color: #EF3E36;
+	color: #388659;
 	font-weight: bold;
 	font-size: 120%;
 	font-family: 'Dosis', sans-serif;
@@ -169,7 +169,7 @@ a:hover {
   
 /*-------------------------headerの指定*/   
 header {  
-  height: 500px;  
+  height: 200px;  
   margin: 0;  
   padding: 0;  
 }  
