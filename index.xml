@@ -21,12 +21,22 @@
     </item>
     
     <item>
-      <title>March 8th 2019</title>
+      <title>March 24th 2019</title>
       <link>https://tokyocryptoday.github.io/upcoming/</link>
-      <pubDate>Wed, 13 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tokyocryptoday.github.io/upcoming/</guid>
-      <description>March 8th 2019 at Musashino R&amp;amp;D center Program  10:30 - 11:30 Collusion Resistant Traitor Tracing from Learning with Errors (Rishab Goyal) 13:00 - 14:00 Fine-grained quantum computational supremacy (Tomoyuki Morimae) 14:15 - 15:15 Non-Malleable Codes for Decision Trees (and more) (Marshall Ball) 15:30 - 16:30 Finding Collisions in a Quantum World: Quantum Black-Box Separation of Collision-Resistance and One-Wayness (Akinori Hosoyamada)  Abstracts Collusion Resistant Traitor Tracing from Learning with Errors Rishab Goyal (UT Austin)</description>
+      <description> Next Tokyo Crypto Day will be held in June or July </description>
+    </item>
+    
+    <item>
+      <title>March 8th 2019</title>
+      <link>https://tokyocryptoday.github.io/previous-editions/190308/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tokyocryptoday.github.io/previous-editions/190308/</guid>
+      <description>Program  Collusion Resistant Traitor Tracing from Learning with Errors (Rishab Goyal) Fine-grained quantum computational supremacy (Tomoyuki Morimae) Non-Malleable Codes for Decision Trees (and more) (Marshall Ball) Finding Collisions in a Quantum World: Quantum Black-Box Separation of Collision-Resistance and One-Wayness (Akinori Hosoyamada)  Abstracts Collusion Resistant Traitor Tracing from Learning with Errors Rishab Goyal (UT Austin)
+In this work we provide a traitor tracing scheme with ciphertexts that grow polynomially in log(N) where N is the number of users and prove it secure under the Learning with Errors (LWE) assumption.</description>
     </item>
     
     <item>

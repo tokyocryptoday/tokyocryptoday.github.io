@@ -6,10 +6,20 @@
     <description>Recent content in Previous-editions on Tokyo Crypto Day</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tokyocryptoday.github.io/previous-editions/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>March 8th 2019</title>
+      <link>https://tokyocryptoday.github.io/previous-editions/190308/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tokyocryptoday.github.io/previous-editions/190308/</guid>
+      <description>Program  Collusion Resistant Traitor Tracing from Learning with Errors (Rishab Goyal) Fine-grained quantum computational supremacy (Tomoyuki Morimae) Non-Malleable Codes for Decision Trees (and more) (Marshall Ball) Finding Collisions in a Quantum World: Quantum Black-Box Separation of Collision-Resistance and One-Wayness (Akinori Hosoyamada)  Abstracts Collusion Resistant Traitor Tracing from Learning with Errors Rishab Goyal (UT Austin)
+In this work we provide a traitor tracing scheme with ciphertexts that grow polynomially in log(N) where N is the number of users and prove it secure under the Learning with Errors (LWE) assumption.</description>
+    </item>
     
     <item>
       <title>October 26th 2018</title>
