@@ -21,12 +21,12 @@
     </item>
     
     <item>
-      <title>May 9th 2019</title>
+      <title>June 1st 2019</title>
       <link>https://tokyocryptoday.github.io/upcoming/</link>
-      <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tokyocryptoday.github.io/upcoming/</guid>
-      <description> Next Tokyo Crypto Day will be held on July 5th. Confirmed speakers are:  Nuttapong Attrapadung Romain Gay Takahiro Matsuda Shota Yamada  </description>
+      <description>The next Tokyo Crypto Day will be held on July 5th at Musashino R&amp;amp;D center. Program  10:30 - 11:30 CCA Security and Trapdoor Functions via Key-Dependent-Message Security (Takahiro Matsuda) 13:00 - 14:00 Multi-Client Functional Encryption for Inner Products (Romain Gay) 14:20 - 15:20 Attribute Based Encryption (and more) for Nondeterministic Finite Automata from LWE (Shota Yamada) 15:40 - 16:40 Unbounded Dynamic Predicate Compositions in Attribute-based Encryption (Nuttapong Attrapadung)  Abstracts CCA Security and Trapdoor Functions via Key-Dependent-Message Security Takahiro Matsuda (AIST)</description>
     </item>
     
     <item>
@@ -35,7 +35,8 @@
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tokyocryptoday.github.io/previous-editions/190308/</guid>
-      <description>Program  Collusion Resistant Traitor Tracing from Learning with Errors (Rishab Goyal) Fine-grained quantum computational supremacy (Tomoyuki Morimae) Non-Malleable Codes for Decision Trees (and more) (Marshall Ball) Finding Collisions in a Quantum World: Quantum Black-Box Separation of Collision-Resistance and One-Wayness (Akinori Hosoyamada)  Abstracts Collusion Resistant Traitor Tracing from Learning with Errors Rishab Goyal (UT Austin)
+      <description>http://www.ntt.co.jp/sc/event_e/event20190308.html
+Program  Collusion Resistant Traitor Tracing from Learning with Errors (Rishab Goyal) Fine-grained quantum computational supremacy (Tomoyuki Morimae) Non-Malleable Codes for Decision Trees (and more) (Marshall Ball) Finding Collisions in a Quantum World: Quantum Black-Box Separation of Collision-Resistance and One-Wayness (Akinori Hosoyamada)  Abstracts Collusion Resistant Traitor Tracing from Learning with Errors Rishab Goyal (UT Austin)
 In this work we provide a traitor tracing scheme with ciphertexts that grow polynomially in log(N) where N is the number of users and prove it secure under the Learning with Errors (LWE) assumption.</description>
     </item>
     

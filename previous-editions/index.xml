@@ -17,7 +17,8 @@
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tokyocryptoday.github.io/previous-editions/190308/</guid>
-      <description>Program  Collusion Resistant Traitor Tracing from Learning with Errors (Rishab Goyal) Fine-grained quantum computational supremacy (Tomoyuki Morimae) Non-Malleable Codes for Decision Trees (and more) (Marshall Ball) Finding Collisions in a Quantum World: Quantum Black-Box Separation of Collision-Resistance and One-Wayness (Akinori Hosoyamada)  Abstracts Collusion Resistant Traitor Tracing from Learning with Errors Rishab Goyal (UT Austin)
+      <description>http://www.ntt.co.jp/sc/event_e/event20190308.html
+Program  Collusion Resistant Traitor Tracing from Learning with Errors (Rishab Goyal) Fine-grained quantum computational supremacy (Tomoyuki Morimae) Non-Malleable Codes for Decision Trees (and more) (Marshall Ball) Finding Collisions in a Quantum World: Quantum Black-Box Separation of Collision-Resistance and One-Wayness (Akinori Hosoyamada)  Abstracts Collusion Resistant Traitor Tracing from Learning with Errors Rishab Goyal (UT Austin)
 In this work we provide a traitor tracing scheme with ciphertexts that grow polynomially in log(N) where N is the number of users and prove it secure under the Learning with Errors (LWE) assumption.</description>
     </item>
     
