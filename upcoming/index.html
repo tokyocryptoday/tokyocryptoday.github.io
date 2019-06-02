@@ -195,30 +195,13 @@ instantiated from the plain DDH, LWE, and Paillier assumptions.</p>
 
 <p><strong>Shota Yamada</strong> (AIST)</p>
 
-<p>Constructing Attribute Based Encryption (ABE) [SW05] for uniform models of computation,
-i.e. with intrinsic support for unbounded length inputs, from standard assumptions is an important
-problem, about which very little is known. The only known ABE scheme in this setting that i) avoids
-reliance on multilinear maps or indistinguishability obfuscation, ii) supports unbounded length inputs
-and iii) permits unbounded key requests to the adversary in the security game, is by Waters from
-Crypto, 2012 [Wat12], to the best of our knowledge. Waters provides the first ABE for Deterministic
-Finite Automata (DFA) satisfying the above properties, from a parametrized or “q-type” assumption
-over bilinear maps. Generalizing this construction to Nondeterministic Finite Automata (NFA) was
-left as an explicit open problem in the same work, and has seen no progress to date. Constructions
-from other assumptions such as more standard pairing based assumptions, or lattice based assumptions has also proved elusive.</p>
+<p>Constructing Attribute Based Encryption (ABE) [SW05] for uniform models of computation, i.e. with intrinsic support for unbounded length inputs, from standard assumptions is an important problem, about which very little is known. The only known ABE scheme in this setting that i) avoids reliance on multilinear maps or indistinguishability obfuscation, ii) supports unbounded length inputs and iii) permits unbounded key requests to the adversary in the security game, are by Waters from Crypto, 2012 [Wat12] and its variants. Waters provides the first ABE for Deterministic Finite Automata (DFA) satisfying the above properties, from a parametrized or “q-type” assumption over bilinear maps. Generalizing this construction to Nondeterministic Finite Automata (NFA) was left as an explicit open problem in the same work, and has seen no progress to date.
+Constructions from other assumptions such as more standard pairing based assumptions, or lattice based assumptions has also proved elusive.</p>
 
-<p>In this work, we construct the first symmetric key attribute based encryption scheme for
-nondeterministic finite automata (NFA) from the learning with errors (LWE) assumption. Our
-scheme supports unbounded length inputs as well as unbounded length machines. In more detail,
-secret keys in our construction are associated with an NFA M of unbounded length, ciphertexts are
-associated with a tuple (x;m) where x is a public attribute of unbounded length and m is a secret
-message bit, and decryption recovers m if and only if M(x) = 1.
-Further, we leverage our ABE to achieve (restricted notions of) attribute hiding analogous to
-the circuit setting, obtaining the first predicate encryption and bounded key functional encryption
-schemes for NFA from LWE. We achieve machine hiding in the single/bounded key setting to obtain
-the first reusable garbled NFA from standard assumptions. In terms of lower bounds, we show that
-secret key functional encryption even for DFAs, with security against unbounded key requests implies
-indistinguishability obfuscation (iO) for circuits; this suggests a barrier in achieving full fledged
-functional encryption for NFA.</p>
+<p>In this work, we construct the first symmetric key attribute based encryption scheme for nondeterministic finite automata (NFA) from the learning with errors (LWE) assumption. Our scheme supports unbounded length inputs as well as unbounded length machines. In more detail,
+secret keys in our construction are associated with an NFA M of unbounded length, ciphertexts are associated with a tuple (x;m) where x is a public attribute of unbounded length and m is a secret message bit, and decryption recovers m if and only if M(x) = 1.</p>
+
+<p>Further, we leverage our ABE to achieve (restricted notions of) attribute hiding analogous to the circuit setting, obtaining the first predicate encryption and bounded key functional encryption schemes for NFA from LWE. We achieve machine hiding in the single/bounded key setting to obtain the first reusable garbled NFA from standard assumptions. In terms of lower bounds, we show that secret key functional encryption even for DFAs, with security against unbounded key requests implies indistinguishability obfuscation (iO) for circuits; this suggests a barrier in achieving full fledged functional encryption for NFA.</p>
 
 <h3 id="unbounded-dynamic-predicate-compositions-in-attribute-based-encryption">Unbounded Dynamic Predicate Compositions in Attribute-based Encryption</h3>
 
