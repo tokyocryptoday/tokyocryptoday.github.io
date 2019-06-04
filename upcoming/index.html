@@ -207,7 +207,9 @@ secret keys in our construction are associated with an NFA M of unbounded length
 
 <p><strong>Nuttapong Attrapadung</strong> (AIST)</p>
 
-<p>TBA</p>
+<p>We present several transformations that combine a set of attribute-based encryption (ABE) schemes for simpler predicates into a new ABE scheme for more expressive composed predicates. Previous proposals for predicate compositions of this kind, the most recent one being that of Ambrona et.al. at Crypto&rsquo;17, can be considered static (or partially dynamic), meaning that the policy (or its structure) that specifies a composition must be fixed at the setup. Contrastingly, our transformations are dynamic and unbounded: they allow a user to specify an arbitrary and unbounded-size composition policy right into his/her own key or ciphertext. We propose transformations for three classes of composition policies, namely, the classes of any monotone span programs, any branching programs, and any deterministic finite automata. These generalized policies are defined over arbitrary predicates, hence admitting modular compositions. One application from modularity is a new kind of ABE for which policies can be ``nested&rdquo; over ciphertext and key policies. As another application, we achieve the first fully secure completely unbounded key-policy ABE for non-monotone span programs, in a modular and clean manner, under the q-ratio assumption (Agrawal and Chase at Eurocrypt&rsquo;17).</p>
+
+<p>Our transformations work inside a generic framework for ABE called symbolic pair encoding, proposed by Agrawal and Chase at Eurocrypt&rsquo;17. Along the way, we also propose a generic way to bundle ABE schemes (without a policy over them, and where each scheme works separately) so that almost all of their parameters can be reused among those ABE schemes. At the core of our transformations, we observe and exploit an unbounded nature of the symbolic property so as to achieve unbounded-size policy compositions.</p>
 </div>
 
     
