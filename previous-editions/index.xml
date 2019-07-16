@@ -6,10 +6,21 @@
     <description>Recent content in Previous-editions on Tokyo Crypto Day</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tokyocryptoday.github.io/previous-editions/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>July tth 2019</title>
+      <link>https://tokyocryptoday.github.io/previous-editions/190705/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tokyocryptoday.github.io/previous-editions/190705/</guid>
+      <description>http://www.ntt.co.jp/sc/event_e/event20190705.html
+Program  10:30 - 11:30 CCA Security and Trapdoor Functions via Key-Dependent-Message Security (Takahiro Matsuda) 12:45 - 13:45 Multi-Client Functional Encryption for Inner Products (Romain Gay) 14:00 - 15:00 Attribute Based Encryption (and more) for Nondeterministic Finite Automata from LWE (Shota Yamada) 15:10 - 16:10 Unbounded Dynamic Predicate Compositions in Attribute-based Encryption (Nuttapong Attrapadung)  Abstracts CCA Security and Trapdoor Functions via Key-Dependent-Message Security Takahiro Matsuda (AIST)
+We study the relationship among public-key encryption (PKE) satisfying indistinguishability against chosen plaintext attacks (IND-CPA security), that against chosen ciphertext attacks (IND-CCA security), and trapdoor functions (TDF).</description>
+    </item>
     
     <item>
       <title>March 8th 2019</title>
