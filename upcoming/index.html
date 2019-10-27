@@ -127,7 +127,7 @@
     
 
     <h4><a href="/upcoming/">December 16th 2019</a></h4>
-    <h5>December 16th, 2019</h5>
+    <h5>October 2, 2019</h5>
     
 
 </div>
@@ -137,12 +137,50 @@
 
 <h2 id="the-next-tokyo-crypto-day-will-be-held-on-december-16th-mon-at-musashino-r-d-center">The next Tokyo Crypto Day will be held on December 16th (Mon) at Musashino R&amp;D center.</h2>
 
-<h3 id="confirmed-speakers">Confirmed speakers</h3>
+<h2 id="program">Program</h2>
 
-<ul>
-<li>Aayush Jain</li>
-<li>Miguel Ambrona</li>
-</ul>
+<ol>
+<li>10:30 - 11:30 TBA (<strong>Aayush Jain</strong>)</li>
+<li>13:00 - 14:00 Black-Box Language Extension of Non-Interactive Zero-Knowledge Arguments (<strong>Miguel Ambrona</strong>)</li>
+<li>14:15 - 15:15 Structure-Preserving and Re-randomizable RCCA-secure Public Key Encryption and its Applications (<strong>Antonio Faonio</strong>)</li>
+<li>15:30 - 16:30 On the (In)security of Kilian-Based SNARGs (<strong>Fermi Ma</strong>)</li>
+</ol>
+
+<h2 id="abstracts">Abstracts</h2>
+
+<h3 id="tba">TBA</h3>
+
+<p><strong>Aayush Jain</strong> (UCLA)</p>
+
+<p>TBA</p>
+
+<h3 id="black-box-language-extension-of-non-interactive-zero-knowledge-arguments">Black-Box Language Extension of Non-Interactive Zero-Knowledge Arguments</h3>
+
+<p><strong>Miguel Ambrona</strong> (NTT Secure Platform Laboratories)</p>
+
+<p>Highly efficient non-interactive zero-knowledge arguments (NIZK) are often constructed for limited languages and it is not known how to extend them to cover wider classes of languages in general. In this paper we initiate a study on black-box language extensions for conjunctive and disjunctive relations, that is, building a NIZK system for $L \diamond \hat{L}$ (with $\diamond \in {\land,\lor}$) based on NIZK systems for languages $L$ and $\hat{L}$. While the conjunctive extension of NIZKs is straightforward by simply executing the given NIZKs in parallel, it is not known how disjunctive extensions could be achieved in a black-box manner. Besides, observe that the simple conjunctive extension does not work in the case of simulation-sound NIZKs (SS-NIZKs), as pointed out by Sahai (Sahai, FOCS 1999). Our main contribution is an impossibility result that negates the existence of the above extensions and implies other non-trivial separations among NIZKs, SS-NIZKs, and labelled SS-NIZKs. Motivated by the difficulty of such transformations, we additionally present an efficient construction of signature schemes based on unbounded simulation-sound NIZKs (USS-NIZKs) for any language without language extensions.</p>
+
+<p>This is a joint work with Masayuki Abe and Miyako Ohkubo.</p>
+
+<h3 id="structure-preserving-and-re-randomizable-rcca-secure-public-key-encryption-and-its-applications">Structure-Preserving and Re-randomizable RCCA-secure Public Key Encryption and its Applications</h3>
+
+<p><strong>Antonio Faonio</strong> (IMDEA Software)</p>
+
+<p>Re-randomizable RCCA-secure public key encryption (Rand-RCCA PKE) schemes reconcile the property of re-randomizability of the ciphertexts with the need of security against chosen-ciphertexts attacks.</p>
+
+<p>In this paper we give a new construction of a Rand-RCCA PKE scheme that is perfectly re-randomizable. Our construction is structure-preserving, can be instantiated over Type-3 pairing groups, and achieves better computation and communication efficiency than the state of the art perfectly re-randomizable schemes (e.g., Prabhakaran and Rosulek, CRYPTO&rsquo;07).</p>
+
+<p>Next, we revive the Rand-RCCA notion showing new applications where our Rand-RCCA PKE scheme plays a fundamental part: (1) We show how to turn our scheme into a publicly-verifiable Rand-RCCA scheme; (2) We construct a malleable NIZK with a (variant of) simulation soundness that allows for re-randomizability; (3) We propose a new UC-secure Verifiable Mix-Net protocol that is secure in the common reference string model. Thanks to the structure-preserving property, all these applications are efficient. Notably, our Mix-Net protocol is the most efficient universally verifiable Mix-Net (without random oracle) where the CRS is an uniformly random string of size independent of the number of senders. The property is of the essence when such protocols are used in large scale.</p>
+
+<p>This is a joint work with Dario Fiore, Javier Herranz, and Carla Ràfols.</p>
+
+<h3 id="on-the-in-security-of-kilian-based-snargs">On the (In)security of Kilian-Based SNARGs</h3>
+
+<p><strong>Fermi Ma</strong> (Princeton University)</p>
+
+<p>The Fiat-Shamir transform applied to Kilian’s protocol (and its extension to interactive oracle proofs) is at the heart of both theoretical results as well as practical implementations of highly efficient non-interactive proof systems (e.g., SNARKs and STARKs). In this work, we demonstrate significant obstacles to establishing the soundness of this approach. We exhibit a particular (contrived) interactive oracle proof (IOP) for NP for which Fiat-Shamir is unsound for any concrete hash function and any Merkle tree commitment. We also show that if Kilian’s original protocol for PCPs is instantiated with a particular (contrived) Merkle tree commitment and any “natural” PCP, then the Fiat-Shamir transform cannot be soundly applied using any concrete hash function. Put together, our results suggest that provably-secure PCP/IOP-based SNARGs will require a synergistic choice of the PCP/IOP, the Merkle tree commitment, and Fiat-Shamir hash function.</p>
+
+<p>This is a joint work with James Bartusek, Liron Bronfman, Justin Holmgren, and Ron Rothblum.</p>
 </div>
 
     
@@ -157,6 +195,10 @@
         <footer>
 
             <p class="copyright text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a></p>
+
+            <script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
         </footer>
        
