@@ -21,15 +21,6 @@
     </item>
     
     <item>
-      <title>Mark 9th 2020</title>
-      <link>https://tokyocryptoday.github.io/upcoming/</link>
-      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tokyocryptoday.github.io/upcoming/</guid>
-      <description> The next Tokyo Crypto Day will be held on March 9th (Mon) at the University of Tokyo. Confirmed speakers  Venkata Koppula Prashant Nalini Vasudevan  </description>
-    </item>
-    
-    <item>
       <title>December 16th 2019</title>
       <link>https://tokyocryptoday.github.io/previous-editions/191216/</link>
       <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
@@ -109,6 +100,15 @@ Predicates are used in cryptography as a fundamental tool to control the disclos
       <guid>https://tokyocryptoday.github.io/previous-editions/170602/</guid>
       <description>Program  From Single-Key to Collusion-Resistant Secret-Key Functional Encryption by Leveraging Succinctness (Fuyuki Kitagawa) Small CRT-Exponent RSA Revisited (Atsushi Takayasu) Privacy-Preserving Aggregation of Time-Series Data with Public Verifiability from Simple Assumptions (Keita Emura)  Abstracts From Single-Key to Collusion-Resistant Secret-Key Functional Encryption by Leveraging Succinctness Fuyuki Kitagawa (Tokyo Tech)
 We show how to construct a secret-key functional encryption (SKFE) scheme that supports unbounded polynomially many functional decryption keys solely from an SKFE scheme that supports only one functional decryption key.</description>
+    </item>
+    
+    <item>
+      <title>March 9th 2020</title>
+      <link>https://tokyocryptoday.github.io/upcoming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tokyocryptoday.github.io/upcoming/</guid>
+      <description>The next Tokyo Crypto Day will be held on March 9th (Mon) at the University of Tokyo. Place: room #63 in Bldg. #6, Faculty of Engineering, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-8656 Confirmed speakers  Venkata Koppula Prashant Nalini Vasudevan  Program  10:30 - 11:30 (TBA) 13:00 - 14:00 (Venkata Koppula) 14:15 - 15:15 (Prashant Nalini Vasudevan) 15:30 - 16:30 (TBA)  Abstracts New Approaches for CCA-Secure Encryption Venkata Koppula (Wiezmann Insititute of Science)</description>
     </item>
     
   </channel>
