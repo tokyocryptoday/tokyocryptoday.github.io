@@ -139,6 +139,8 @@
 
 <h3 id="place-room-63-in-bldg-6-faculty-of-engineering-7-3-1-hongo-bunkyo-ku-tokyo-113-8656">Place: room #63 in Bldg. #6, Faculty of Engineering, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-8656</h3>
 
+<p>Faculty of Engineering Bldg. #6 is 80 in <a href="https://www.u-tokyo.ac.jp/content/400020145.pdf">this map</a>.</p>
+
 <h3 id="confirmed-speakers">Confirmed speakers</h3>
 
 <ul>
@@ -149,7 +151,7 @@
 <h2 id="program">Program</h2>
 
 <ol>
-<li>10:30 - 11:30  (<strong>TBA</strong>)</li>
+<li>10:30 - 11:30 Unbounded Dynamic Predicate Compositions in ABE from Standard Assumptions (<strong>Junichi Tomida</strong>)</li>
 <li>13:00 - 14:00 New Approaches for CCA-Secure Encryption (<strong>Venkata Koppula</strong>)</li>
 <li>14:15 - 15:15 Cryptography from Information Loss (<strong>Prashant Nalini Vasudevan</strong>)</li>
 <li>15:30 - 16:30  (<strong>TBA</strong>)</li>
@@ -158,6 +160,25 @@
 <p>This event is held with the help of <a href="https://sites.google.com/site/atsushitakayasu1985/home">Atsushi Takayasu</a></p>
 
 <h2 id="abstracts">Abstracts</h2>
+
+<h3 id="unbounded-dynamic-predicate-compositions-in-abe-from-standard-assumptions">Unbounded Dynamic Predicate Compositions in ABE from Standard Assumptions</h3>
+
+<p><strong>Junichi Tomida</strong> (NTT Secure Platform Laboratories)</p>
+
+<p>Abstract:
+At Eurocrypt&rsquo;19, Attrapadung presented several transformations that dynamically compose a set of attribute-based encryption (ABE) schemes for simpler predicates into a new ABE scheme for more expressive predicates.
+Due to the powerful unbounded and modular nature of his compositions, many new ABE schemes can be obtained in a systematic manner (including those that resolved some open problems at the time). However, his approach heavily relies on so-called $q$-type assumptions, which are not standard. Devising such powerful compositions from standard assumptions was left as an important open problem.
+In this paper, we present a new framework for constructing ABE schemes that allow unbounded and dynamic predicate compositions among them, and show that the adaptive security of these composed ABE will be preserved by relying only on the standard matrix Diffie-Hellman (MDDH) assumption.
+This thus resolves the open problem posed by Attrapadung.
+Our framework significantly expands an area of ABEs that are realizable from standard assumptions.
+This includes the following adaptively secure large-universe ABEs for Boolean formulae under MDDH.</p>
+
+<ul>
+<li>The first completely unbounded monotone key-policy (KP)/ciphertext-policy (CP) ABE. Previously, such ABE has been only recently proposed, but only for the KP and small-universe flavor (Kowalczyk and Wee, Eurocrypt&rsquo;19).</li>
+<li>The first completely unbounded non-monotone KP/CP-ABE. Especially, our ABEs support a new type of non-monotonicity that subsumes previous two types of non-monotonicity, namely, by Ostrovsky et al. (CCS&rsquo;07) and by Okamoto and Takashima (CRYPTO&rsquo;10).</li>
+<li>The first non-monotone KP and CP-ABE with constant-size ciphertexts and secret keys, respectively.</li>
+<li>The first monotone KP and CP-ABE with constant-size secret keys and ciphertexts, respectively.</li>
+</ul>
 
 <h3 id="new-approaches-for-cca-secure-encryption">New Approaches for CCA-Secure Encryption</h3>
 
