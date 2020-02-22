@@ -147,7 +147,7 @@
 <li>10:30 - 11:30 Unbounded Dynamic Predicate Compositions in ABE from Standard Assumptions (<strong>Junichi Tomida</strong>)</li>
 <li>13:00 - 14:00 New Approaches for CCA-Secure Encryption (<strong>Venkata Koppula</strong>)</li>
 <li>14:15 - 15:15 Cryptography from Information Loss (<strong>Prashant Nalini Vasudevan</strong>)</li>
-<li>15:30 - 16:30  (<strong>TBA</strong>)</li>
+<li>15:30 - 16:30 Uprooting the FALCON tree? How to recover secret keys from Gram-Schmidt norm (<strong>Alexandre Wallet</strong>)</li>
 </ol>
 
 <p>This event is held with the help of <a href="https://sites.google.com/site/atsushitakayasu1985/home">Atsushi Takayasu</a></p>
@@ -194,6 +194,25 @@ Reductions between problems, the mainstay of theoretical computer science, effic
 <p>We show various sufficient conditions in terms of such reductions that, together with worst-case or average-case hardness of the underlying language, imply one-way functions and collision-resistant hash functions.</p>
 
 <p>Joint work with Marshall Ball, Elette Boyle, Akshay Degwekar, Apoorvaa Deshpande, Alon Rosen, and Vinod Vaikuntanathan.</p>
+
+<h3 id="uprooting-the-falcon-tree-how-to-recover-secret-keys-from-gram-schmidt-norm">Uprooting the FALCON tree? How to recover secret keys from Gram-Schmidt norm</h3>
+
+<p><strong>Alexandre Wallet</strong>(NTT SC Labs)</p>
+
+<p>Abstract:
+The so-called GPV framework allows for theoretically secure &ldquo;Hash-and-sign&rdquo;-style signatures schemes over lattices.
+Moreover, efficient instantiations using NTRU lattices are known, showcased by the NIST round 2 candidate Falcon as well as its IBE ancestor (Ducas, Lyubashevsky and Prest, ASIACRYPT 2014).
+As opposed to the series of concrete results on the &ldquo;Fiat-Shamir with aborts&rdquo; lattice signature paradigm, no particular side-channel leakage were identified before for GPV-style schemes.</p>
+
+<p>Our work is the first step in this direction.
+First, we identify a specific source of side-channel leakage in most implementations of those schemes, namely, the one-dimensional Gaussian sampling steps within lattice Gaussian sampling.
+It turns out that the implementations of these steps often leak the Gram–Schmidt norms of the secret lattice basis.
+Second, we elucidate the link between this leakage and the secret key, by showing that the entire secret key can be efficiently reconstructed solely from those Gram–Schmidt norms.
+The result makes heavy use of the algebraic structure of the corresponding schemes, which work over a power-of-two cyclotomic field.
+Third, we concretely demonstrate the side-channel attack against DLP (but not Falcon due to the different structures of the two schemes).</p>
+
+<p>The challenge is that timing information only provides an approximation of the Gram–Schmidt norms, so our algebraic recovery technique needs to be combined with pruned tree search in order to apply it to approximate values.
+Experimentally, we show that around 2^35 DLP traces are enough to reconstruct the entire key with good probability.</p>
 </div>
 
     
