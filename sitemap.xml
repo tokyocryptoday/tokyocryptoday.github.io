@@ -8,6 +8,16 @@
   </url>
   
   <url>
+    <loc>https://tokyocryptoday.github.io/upcoming/</loc>
+    <lastmod>2023-01-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tokyocryptoday.github.io/previous-editions/200309/</loc>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tokyocryptoday.github.io/previous-editions/191216/</loc>
     <lastmod>2019-12-16T00:00:00+00:00</lastmod>
   </url>
@@ -53,12 +63,8 @@
   </url>
   
   <url>
-    <loc>https://tokyocryptoday.github.io/upcoming/</loc>
-  </url>
-  
-  <url>
     <loc>https://tokyocryptoday.github.io/previous-editions/</loc>
-    <lastmod>2019-12-16T00:00:00+00:00</lastmod>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

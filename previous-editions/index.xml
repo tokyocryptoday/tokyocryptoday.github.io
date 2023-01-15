@@ -6,13 +6,23 @@
     <description>Recent content in Previous-editions on Tokyo Crypto Day</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tokyocryptoday.github.io/previous-editions/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>December 16th 2019</title>
+      <title>9th-event on March 9th 2020</title>
+      <link>https://tokyocryptoday.github.io/previous-editions/200309/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tokyocryptoday.github.io/previous-editions/200309/</guid>
+      <description>The next Tokyo Crypto Day will be held on March 9th (Mon) at the University of Tokyo. Canceled Due to the COVID19 issue, this event was canceled.
+Place: room #63 in Bldg. #6, Faculty of Engineering, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-8656 Program  10:30 - 11:30 Unbounded Dynamic Predicate Compositions in ABE from Standard Assumptions (Junichi Tomida) 13:00 - 14:00 New Approaches for CCA-Secure Encryption (Venkata Koppula) 14:15 - 15:15 Cryptography from Information Loss (Prashant Nalini Vasudevan) 15:30 - 16:30 Uprooting the FALCON tree?</description>
+    </item>
+    
+    <item>
+      <title>8th event on December 16th 2019</title>
       <link>https://tokyocryptoday.github.io/previous-editions/191216/</link>
       <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
       
@@ -22,7 +32,7 @@ Program  10:30 - 11:30 Indistinguishability Obfuscation Without Multilinear Maps
     </item>
     
     <item>
-      <title>July 5th 2019</title>
+      <title>7th event on July 5th 2019</title>
       <link>https://tokyocryptoday.github.io/previous-editions/190705/</link>
       <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
       
@@ -33,7 +43,7 @@ We study the relationship among public-key encryption (PKE) satisfying indisting
     </item>
     
     <item>
-      <title>March 8th 2019</title>
+      <title>6th event on March 8th 2019</title>
       <link>https://tokyocryptoday.github.io/previous-editions/190308/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
@@ -44,7 +54,7 @@ In this work we provide a traitor tracing scheme with ciphertexts that grow poly
     </item>
     
     <item>
-      <title>October 26th 2018</title>
+      <title>5th event on October 26th 2018</title>
       <link>https://tokyocryptoday.github.io/previous-editions/181026/</link>
       <pubDate>Fri, 26 Oct 2018 00:00:00 +0000</pubDate>
       
@@ -55,7 +65,7 @@ Garbled circuits are fundamental cryptographic primitives. They have diverse app
     </item>
     
     <item>
-      <title>May 25th 2018</title>
+      <title>4th event on May 25th 2018</title>
       <link>https://tokyocryptoday.github.io/previous-editions/180525/</link>
       <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
       
@@ -65,7 +75,7 @@ LINE is a mobile messaging application quite popular in Japan and several other 
     </item>
     
     <item>
-      <title>March 2nd 2018</title>
+      <title>3rd event on March 2nd 2018</title>
       <link>https://tokyocryptoday.github.io/previous-editions/180302/</link>
       <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
       
@@ -75,7 +85,7 @@ Predicates are used in cryptography as a fundamental tool to control the disclos
     </item>
     
     <item>
-      <title>October 20th 2017</title>
+      <title>2nd event on October 20th 2017</title>
       <link>https://tokyocryptoday.github.io/previous-editions/171020/</link>
       <pubDate>Fri, 20 Oct 2017 00:00:00 +0000</pubDate>
       
@@ -84,7 +94,7 @@ Predicates are used in cryptography as a fundamental tool to control the disclos
     </item>
     
     <item>
-      <title>June 2nd 2017</title>
+      <title>1st event on 	June 2nd 2017</title>
       <link>https://tokyocryptoday.github.io/previous-editions/170602/</link>
       <pubDate>Fri, 02 Jun 2017 00:00:00 +0000</pubDate>
       
