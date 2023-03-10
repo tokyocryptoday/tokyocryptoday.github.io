@@ -127,7 +127,7 @@
     
 
     <h4><a href="/upcoming/">10th event on March 30th 2023</a></h4>
-    <h5>January 13, 2023</h5>
+    <h5>March 10, 2023</h5>
     
 
 </div>
@@ -135,20 +135,79 @@
 
     <br> <div class="text-justify">
 
-<h2 id="the-next-tokyo-crypto-day-will-be-held-on-march-30th-thu-and-31st-fri-at-the-musashino-r-d-center">The next Tokyo Crypto Day will be held on March 30th (Thu) and 31st (Fri) at the Musashino R&amp;D center.</h2>
+<h3 id="the-next-tokyo-crypto-day-will-be-held-on-march-30th-thu-and-31st-fri-at-the-musashino-r-d-center">The next Tokyo Crypto Day will be held on March 30th (Thu) and 31st (Fri) at the Musashino R&amp;D center.</h3>
 
-<h3 id="place-musashino-r-d-center-3-9-11-midochi-cho-musashino-shi-tokyo-180-8585">Place: Musashino R&amp;D center, 3-9-11 Midochi-cho, Musashino-shi, Tokyo 180-8585</h3>
+<p><strong>Place</strong>: Musashino R&amp;D center, 3-9-11 Midochi-cho, Musashino-shi, Tokyo 180-8585</p>
 
 <h2 id="program">Program</h2>
 
-<p>TBD</p>
+<h3 id="march-30th">March 30th</h3>
 
-<h2 id="confirmed-speakers">Confirmed speakers</h2>
+<ol>
+<li>13:00 - 14:30: Price of Active Security (<strong>Carmit Hazay</strong>)</li>
+<li>14:45 - 16:15: Zero-knowledge from MPC-in-the-dead: Theory edition (<strong>Muthuramakrishnan Venkitasubramaniam</strong>)</li>
+</ol>
 
-<ul>
-<li><a href="https://www.eng.biu.ac.il/hazay/">Carmit Hazay</a></li>
-<li><a href="https://muthu.georgetown.domains/">Muthuramakrishnan Venkitasubramaniam</a></li>
-</ul>
+<h3 id="march-31th">March 31th</h3>
+
+<ol>
+<li>13:00 - 14:30: SCALES - MPC with Small Clients and Larger Ephemeral Servers (<strong>Carmit Hazay</strong>)</li>
+<li>14:45 - 16:15: Zero-knowledge from MPC-in-the-head: Practice edition (<strong>Muthuramakrishnan Venkitasubramaniam</strong>)</li>
+<li>16:30 - 17:30: A Key-Recovery Attack against Mitaka in the t-Probing Model (<strong>Thomas Prest</strong>)</li>
+</ol>
+
+<h2 id="abstracts">Abstracts</h2>
+
+<h3 id="price-of-active-security">Price of Active Security</h3>
+
+<p><strong>Carmit Hazay</strong></p>
+
+<p>Abstract:
+In this talk, we will cover two general-purpose MPC communication efficient constructions.</p>
+
+<p>In the first part, we discuss how to construct the first actively secure Multi-Party Computation (MPC) protocols with an arbitrary number of parties in the dishonest majority setting, for an arbitrary field F  with constant communication overhead over the <strong>passive-GMW</strong> protocol (Goldreich, Micali and Wigderson, STOC&rsquo;87). Our protocols rely on passive implementations of  Oblivious Transfer (OT) in the boolean setting and Oblivious Linear function Evaluation (OLE) in the arithmetic setting. Previously, such protocols were only known over sufficiently large fields (Genkin et al. STOC&rsquo;14) or a constant number of parties (Ishai et al. CRYPTO&rsquo;08).</p>
+
+<p>Conceptually, our protocols are obtained via a new compiler from a passively-secure protocol for a distributed multiplication functionality F<em>{mult}, to an actively-secure protocol for general functionalities. Roughly, F</em>{mult} is parameterized by a linear-secret sharing scheme that takes shares of two secrets and returns shares of their product.</p>
+
+<p>In the second part, we will cover covert security that has been introduced as a compromise between semi-honest and malicious security.
+In a nutshell, covert security guarantees that malicious behavior can be detected by the honest parties with some probability, but in case detection fails all bets are off. While the security guarantee offered by covert security is weaker than full-fledged malicious security, it comes with significantly improved efficiency. An important extension of covert security  introduced by Asharov and Orlandi (ASIACRYPT&rsquo;12) is public verifiability, which allows the honest parties to create a publicly verifiable certificate of malicious behavior. Public verifiability significantly strengthens covert security as the certificate allows punishment via an external party, e.g., a judge.</p>
+
+<p>Most previous work on publicly verifiable covert (PVC) security focuses on the two-party case, and the multi-party case has mostly been neglected. In this work, we introduce a novel compiler for multi-party PVC secure protocols. Our compiler leverages time-lock encryption to offer a high probability of cheating detection (often also called deterrence factor) independent of the number of involved parties.</p>
+
+<h3 id="zero-knowledge-from-mpc-in-the-head-theory-edition">Zero-knowledge from MPC-in-the-head: Theory edition</h3>
+
+<p>(<strong>Muthuramakrishnan Venkitasubramaniam</strong>)</p>
+
+<p>Abstract:
+In this talk, we will introduce zero knowledge proof systems. We will discuss the MPC-in-the-head paradigm that allows the design of a zero-knowledge proof system for all of NP starting from
+<em>any</em> secure multiparty computation protocol (MPC). We will show how this simple idea is powerful enough to obtain efficient implementations by using the &ldquo;right&rdquo; MPC. In particular, we will discuss Ligero, which is an instantiation of this paradigm and yields a simple sub-linear argument protocol for NP based on the MPC-in-the-head paradigm whose communication complexity is proportional to the square-root of the verification circuit size. The protocol can be based on any collision-resistant hash function. With the proliferation of zero-knowledge proofs, specifically zk-snarks for many real-world use cases, we will next discuss what are the bottlenecks and recent progress. Specifically, we will discuss designing complexity-preserving (i.e. overhead w.r.t time and space are minimal) succinct zero-knowledge arguments of knowledge.</p>
+
+<h3 id="scales-mpc-with-small-clients-and-larger-ephemeral-servers">SCALES - MPC with Small Clients and Larger Ephemeral Servers</h3>
+
+<p><strong>Carmit Hazay</strong></p>
+
+<p>Abstract:
+The recently proposed You-Only-Speak-Once (YOSO) model is a groundbreaking approach to MPC, executable on a public blockchain, circumventing adaptive player corruption by hiding the corruption targets until they are worthless. Players are selected unpredictably from a large pool to perform MPC subtasks, in which each selected player sends a single message (and reveals their identity). While YOSO MPC has attractive asymptotic complexity, unfortunately, it is concretely prohibitively expensive due to the cost of its building blocks.</p>
+
+<p>We propose a modification to the YOSO model that preserves resilience to adaptive server corruption but allows for much more efficient protocols. In SCALES (Small Clients And Larger Ephemeral Servers) only the servers facilitating the MPC computation are ephemeral (unpredictably selected and ``speak once&rdquo;). Input providers (clients) publish problem instances and collect the output, but do not otherwise participate in computation. SCALES offers attractive features and improves over YOSO in outsourcing MPC to a large pool of servers under adaptive corruption.</p>
+
+<p>Building on Rerandomizable Garbling Schemes (RGS), we present two SCALES constructions with semi-honest and malicious security.</p>
+
+<h3 id="zero-knowledge-from-mpc-in-the-head-practice-edition">Zero-knowledge from MPC-in-the-head: Practice edition</h3>
+
+<p><strong>Muthuramakrishnan Venkitasubramaniam</strong></p>
+
+<p>Abstract: We will begin by discussing the classical GMW paradigm that allows compiling an arbitrary protocol secure against passive (i.e
+semi-honest) adversaries to one that is secure against active (i.e.
+malicious adversaries) generically. While this approach has been generally dismissed for concretely efficient construction since it relies on the underlying primitive in a non-black-box manner, we will show how this paradigm can be made practical by being selectively non-black-box. As a first application, we will demonstrate the first two-party actively secure protocol whose design is based on the general GMW paradigm that will additionally support non-interactive secure computation (NISC). Next, we will show an instance of this paradigm for a very-large-scale computation. Namely, we will demonstrate the first concretely efficient protocol for distributed RSA modulus generation that can support thousands of parties and offers security against an arbitrary number of corrupted parties. We will conclude with the state-of-the-art in the design of zk-snarks from MPC-in-the-head with a possible live demo.</p>
+
+<h3 id="a-key-recovery-attack-against-mitaka-in-the-t-probing-model">A Key-Recovery Attack against Mitaka in the t-Probing Model</h3>
+
+<p><strong>Thomas Prest (PQ Shield)</strong></p>
+
+<p>Abstract:
+Mitaka is a lattice-based signature proposed at Eurocrypt 2022. A key advertised feature of Mitaka is that it can be masked at high orders eﬀiciently, making it attractive in scenarios where side-channel attacks are a concern. Mitaka comes with a claimed security proof in the t-probing model.
+We uncover a flaw in the security proof of Mitaka, and subsequently show that it is not secure in the t-probing model. For any number of shares d ≥ 4, probing t &lt; d variables per execution allows an attacker to recover the private key eﬀiciently with approximately 221 executions. Our analysis shows that even a constant number of probes suﬀices (t = 3), as long as the attacker has access to a number of executions that is linear in d/t.</p>
 </div>
 
     
