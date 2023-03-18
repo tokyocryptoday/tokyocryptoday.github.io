@@ -146,6 +146,8 @@
 <ol>
 <li>13:00 - 14:30: Price of Active Security (<strong>Carmit Hazay</strong>)</li>
 <li>14:45 - 16:15: Zero-knowledge from MPC-in-the-dead: Theory edition (<strong>Muthuramakrishnan Venkitasubramaniam</strong>)</li>
+<li>16:30 - 17:30: Fast Practical Lattice Reduction through Iterated Compression
+(<strong>Keegan Ryan</strong>)</li>
 </ol>
 
 <h3 id="march-31th">March 31th</h3>
@@ -181,6 +183,13 @@ In a nutshell, covert security guarantees that malicious behavior can be detecte
 <p>Abstract:
 In this talk, we will introduce zero knowledge proof systems. We will discuss the MPC-in-the-head paradigm that allows the design of a zero-knowledge proof system for all of NP starting from
 <em>any</em> secure multiparty computation protocol (MPC). We will show how this simple idea is powerful enough to obtain efficient implementations by using the &ldquo;right&rdquo; MPC. In particular, we will discuss Ligero, which is an instantiation of this paradigm and yields a simple sub-linear argument protocol for NP based on the MPC-in-the-head paradigm whose communication complexity is proportional to the square-root of the verification circuit size. The protocol can be based on any collision-resistant hash function. With the proliferation of zero-knowledge proofs, specifically zk-snarks for many real-world use cases, we will next discuss what are the bottlenecks and recent progress. Specifically, we will discuss designing complexity-preserving (i.e. overhead w.r.t time and space are minimal) succinct zero-knowledge arguments of knowledge.</p>
+
+<h3 id="fast-practical-lattice-reduction-through-iterated-compression">Fast Practical Lattice Reduction through Iterated Compression</h3>
+
+<p>(<strong>Keegan Ryan</strong>)</p>
+
+<p>Abstract:
+We introduce a new lattice basis reduction algorithm with approximation guarantees analogous to the LLL algorithm and practical performance that far exceeds the current state of the art. We achieve these results by iteratively applying precision management techniques within a recursive algorithm structure and show the stability of this approach. We analyze the asymptotic behavior of our algorithm for arbitrary basis matrices, and we show that the heuristic running time is small and comparable to the cost of performing size reduction, matrix multiplication, and QR factorization on similarly sized matrices. The heuristic running time of our algorithm depends on the log of the condition number of the input basis, which is bounded by the bit length of basis entries in common applications. Our algorithm is fully practical, and we have published our implementation. We experimentally validate our heuristic, give extensive benchmarks against numerous classes of cryptographic lattices, and show that our algorithm significantly outperforms existing implementations.</p>
 
 <h3 id="scales-mpc-with-small-clients-and-larger-ephemeral-servers">SCALES - MPC with Small Clients and Larger Ephemeral Servers</h3>
 
