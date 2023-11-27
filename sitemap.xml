@@ -1,82 +1,52 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://tokyocryptoday.github.io/links/</loc>
     <lastmod>2018-10-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tokyocryptoday.github.io/upcoming/</loc>
+  </url><url>
+    <loc>https://tokyocryptoday.github.io/previous-editions/230330/</loc>
     <lastmod>2023-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://tokyocryptoday.github.io/previous-editions/</loc>
+    <lastmod>2023-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tokyocryptoday.github.io/</loc>
+    <lastmod>2023-03-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://tokyocryptoday.github.io/previous-editions/200309/</loc>
     <lastmod>2020-03-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tokyocryptoday.github.io/previous-editions/191216/</loc>
     <lastmod>2019-12-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tokyocryptoday.github.io/previous-editions/190705/</loc>
     <lastmod>2019-07-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tokyocryptoday.github.io/previous-editions/190308/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tokyocryptoday.github.io/previous-editions/181026/</loc>
     <lastmod>2018-10-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tokyocryptoday.github.io/previous-editions/180525/</loc>
     <lastmod>2018-05-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tokyocryptoday.github.io/previous-editions/180302/</loc>
     <lastmod>2018-03-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tokyocryptoday.github.io/previous-editions/171020/</loc>
     <lastmod>2017-10-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tokyocryptoday.github.io/previous-editions/170602/</loc>
     <lastmod>2017-06-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://tokyocryptoday.github.io/upcoming/</loc>
+  </url><url>
+    <loc>https://tokyocryptoday.github.io/about/</loc>
+  </url><url>
     <loc>https://tokyocryptoday.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://tokyocryptoday.github.io/previous-editions/</loc>
-    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tokyocryptoday.github.io/tags/</loc>
-    <priority>0</priority>
   </url>
-  
-  <url>
-    <loc>https://tokyocryptoday.github.io/</loc>
-    <lastmod>2018-10-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
 </urlset>
